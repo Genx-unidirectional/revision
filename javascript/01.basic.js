@@ -25,4 +25,34 @@ let num = 1;
 const num2 = 123.0303;
 const num3 = 2;
 // console.log(num2.toFixed(2));
-console.log(num3.toExponential(2));
+// console.log(num3.toExponential(2));
+
+//
+
+//string
+
+const str = "hello world ";
+const str2 =
+  "There is something between you and your goals it's called distraction";
+// console.log(str[0]);
+// console.log(str.charAt(2));
+// console.log(str.indexOf("o"));
+// console.log(str.lastIndexOf("o"));
+// console.log(str.substring(2, -1));
+// console.log(str.slice(2, -1));
+
+// console.log(String.fromCharCode(65));
+// console.log(String.fromCodePoint(0x2014));
+// console.log(String.raw`${1 + 2}\ndedo`);
+// console.log(`${1 + 2}\ndedo`);
+
+// console.log(str.endsWith("d"));
+// console.log(str.startsWith("d"));
+// console.log(str.replace("world", "hell"));
+// console.log(str.concat("jake"));
+// console.log(str.search(/e/gi));
+// console.log(str.match(/e/gi));
+// console.log(str.matchAll(/e/gi));
+// console.log(str.padEnd(str.length + 6, "ttt"));
+// console.log(str.normalize("NFKD"));
+console.log(str.split(""));
