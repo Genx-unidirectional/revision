@@ -1,6 +1,7 @@
 "use client";
 import Accordion from "@/components/react/Accordion";
 import ControlledForm from "@/components/react/ControlledForm";
+import ImageSlider from "@/components/react/ImageSlider";
 import Modal from "@/components/react/Modal";
 import SearchAutoComplete from "@/components/react/SearchAutoComplete";
 import Tabs from "@/components/react/Tabs";
@@ -15,6 +16,7 @@ function page() {
     <SearchAutoComplete />,
     <Tabs />,
     <Modal />,
+    <ImageSlider />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
