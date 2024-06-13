@@ -1,6 +1,7 @@
 "use client";
 import Accordion from "@/components/react/Accordion";
 import ControlledForm from "@/components/react/ControlledForm";
+import Modal from "@/components/react/Modal";
 import SearchAutoComplete from "@/components/react/SearchAutoComplete";
 import Tabs from "@/components/react/Tabs";
 import TicTacToe from "@/components/react/TicTacToe";
@@ -13,6 +14,7 @@ function page() {
     <TicTacToe />,
     <SearchAutoComplete />,
     <Tabs />,
+    <Modal />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
