@@ -7,18 +7,20 @@ import SearchAutoComplete from "@/components/react/SearchAutoComplete";
 import StarRating from "@/components/react/StarRating";
 import Tabs from "@/components/react/Tabs";
 import TicTacToe from "@/components/react/TicTacToe";
+import TypeEffect from "@/components/react/TypeEffect";
 import { ReactElement } from "react";
 
 function page() {
   const componentArr: ReactElement[] = [
-    <ControlledForm />,
-    <Accordion />,
-    <TicTacToe />,
-    <SearchAutoComplete />,
-    <Tabs />,
-    <Modal />,
-    <ImageSlider />,
-    <StarRating />,
+    // <ControlledForm />,
+    // <Accordion />,
+    // <TicTacToe />,
+    // <SearchAutoComplete />,
+    // <Tabs />,
+    // <Modal />,
+    // <ImageSlider />,
+    // <StarRating />,
+    <TypeEffect />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
