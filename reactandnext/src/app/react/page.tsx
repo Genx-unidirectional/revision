@@ -1,6 +1,7 @@
 "use client";
 import Accordion from "@/components/react/Accordion";
 import ControlledForm from "@/components/react/ControlledForm";
+import ImageScroll from "@/components/react/ImageScroll";
 import ImageSlider from "@/components/react/ImageSlider";
 import Modal from "@/components/react/Modal";
 import SearchAutoComplete from "@/components/react/SearchAutoComplete";
@@ -23,6 +24,7 @@ function page() {
     // <StarRating />,
     <TypeEffect />,
     <TabTransition />,
+    <ImageScroll />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
