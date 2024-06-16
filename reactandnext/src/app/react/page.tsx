@@ -4,6 +4,7 @@ import ControlledForm from "@/components/react/ControlledForm";
 import ImageScroll from "@/components/react/ImageScroll";
 import ImageSlider from "@/components/react/ImageSlider";
 import Modal from "@/components/react/Modal";
+import ScrollIndicator from "@/components/react/ScrollIndicator";
 import SearchAutoComplete from "@/components/react/SearchAutoComplete";
 import StarRating from "@/components/react/StarRating";
 import Tabs from "@/components/react/Tabs";
@@ -29,6 +30,7 @@ function page() {
     <ImageScroll />,
     <TypeSafeInputRef />,
     <RecursiveTree />,
+    <ScrollIndicator />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
