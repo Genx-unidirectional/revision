@@ -10,6 +10,7 @@ import Tabs from "@/components/react/Tabs";
 import TicTacToe from "@/components/react/TicTacToe";
 import TypeEffect from "@/components/react/TypeEffect";
 import TypeSafeInputRef from "@/components/react/forwardimperative";
+import RecursiveTree from "@/components/react/recursivetree";
 import TabTransition from "@/components/react/transition";
 import { ReactElement } from "react";
 
@@ -27,6 +28,7 @@ function page() {
     <TabTransition />,
     <ImageScroll />,
     <TypeSafeInputRef />,
+    <RecursiveTree />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
