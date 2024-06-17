@@ -11,6 +11,7 @@ import StarRating from "@/components/react/StarRating";
 import Tabs from "@/components/react/Tabs";
 import TicTacToe from "@/components/react/TicTacToe";
 import TypeEffect from "@/components/react/TypeEffect";
+import UploadFile from "@/components/react/UploadFile";
 import TypeSafeInputRef from "@/components/react/forwardimperative";
 import RecursiveTree from "@/components/react/recursivetree";
 import TabTransition from "@/components/react/transition";
@@ -26,13 +27,14 @@ function page() {
     // <Modal />,
     // <ImageSlider />,
     // <StarRating />,
-    <TypeEffect />,
-    <TabTransition />,
-    <ImageScroll />,
-    <TypeSafeInputRef />,
-    <RecursiveTree />,
-    <ScrollIndicator />,
-    <LazyLoadImage />,
+    // <TypeEffect />,
+    // <TabTransition />,
+    // <ImageScroll />,
+    // <TypeSafeInputRef />,
+    // <RecursiveTree />,
+    // <ScrollIndicator />,
+    // <LazyLoadImage />,
+    <UploadFile />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
