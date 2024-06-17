@@ -3,6 +3,7 @@ import Accordion from "@/components/react/Accordion";
 import ControlledForm from "@/components/react/ControlledForm";
 import ImageScroll from "@/components/react/ImageScroll";
 import ImageSlider from "@/components/react/ImageSlider";
+import LazyLoadImage from "@/components/react/LazyLoadImage";
 import Modal from "@/components/react/Modal";
 import ScrollIndicator from "@/components/react/ScrollIndicator";
 import SearchAutoComplete from "@/components/react/SearchAutoComplete";
@@ -31,6 +32,7 @@ function page() {
     <TypeSafeInputRef />,
     <RecursiveTree />,
     <ScrollIndicator />,
+    <LazyLoadImage />,
   ];
   return (
     <div className="flex flex-col   overflow-hidden overflow-y-scroll">
