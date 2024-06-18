@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(3,minmax(0,1fr));
+    gap: 1rem;
+    padding: 1rem;
+    height: 500px;
+    /* justify-content: start; */
+}
+
+.box{
+    background-color: black;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* grid-row: ; */
+}
+
+.box:first-child{
+    /* grid-row: 1/ span 3; */
+
+}
+
