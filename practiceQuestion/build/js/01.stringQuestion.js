@@ -29,3 +29,14 @@ function stripSpaces(str) {
     return str.trim();
 }
 // console.log(stripSpaces("    hope    "));
+//Q- write javascript function to extract unique string characters from string eg,aabbrrff ans:abrf
+function extractUniqueString(str) {
+    let newStr = "";
+    for (let i = 0; i < str.length; i++) {
+        if (newStr.indexOf(str[i]) === -1) {
+            newStr = newStr + str[i];
+        }
+    }
+    return newStr;
+}
+console.log(extractUniqueString("aabbrrff"));
