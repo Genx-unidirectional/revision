@@ -14,3 +14,5 @@ console.log(parseInt(strNum));
 console.log(num1.toFixed(3));
 console.log(num1.toPrecision(3));
 console.log(num1.toExponential(2));
+
+console.log(1_23_3200);
